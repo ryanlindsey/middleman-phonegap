@@ -8,13 +8,9 @@ module Phonegap
       app.set :css_dir, 'stylesheets'
       app.set :js_dir, 'javascripts'
       app.set :images_dir, 'images'
-      
-      app.set :phonegap_dir, ''
 
       app.after_build do |builder|
-        builder.run('rm -R ' << phonegap_dir << '/www')
-        builder.run('mv build ' << phonegap_dir << '/www')
-        # builder.run('./' << phonegap_dir << '/cordova/build')
+        builder.run('rm -R www && mv build www && ./cordova/build && ./cordova/emulate')
       end
     end
     alias :included :registered

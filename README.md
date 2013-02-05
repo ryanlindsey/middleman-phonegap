@@ -30,6 +30,7 @@ For more help follow [Middleman's project template instructions](http://middlema
 
 `$ middleman build`
 
+**Only supports iOS (for now)**
 
 
 ## LICENSE ##

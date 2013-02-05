@@ -1,17 +1,28 @@
-# Middleman + Phonegap Template with Haml, Sass & Coffeescript #
+Middleman + Phonegap Template with Haml, Sass & Coffeescript
+============================================================
 
-Middleman-Phonegap is a [Middleman 3.x](http://middlemanapp.com/) project template with the [Compass](http://compass-style.org), [SASS](http://sass-lang.com/), [HAML](http://haml-lang.com/) and [Coffeescript](http://coffeescript.org). As with all Middleman templates, using [Bundler](http://gembundler.com/) and [rbenv](https://github.com/sstephenson/rbenv/) is recommended.
+**middleman-phonegap** is a [Middleman 3.x](http://middlemanapp.com/) project template with the [Compass](http://compass-style.org), [SASS](http://sass-lang.com/), [HAML](http://haml-lang.com/) and [Coffeescript](http://coffeescript.org). As with all Middleman templates, using [Bundler](http://gembundler.com/) and [Rbenv](https://github.com/sstephenson/rbenv/) is recommended.
 
-## Installation ##
+## Installation / Phonegap Integration ##
+ 
+Clone **middleman-phonegap** into `~/.middleman`. You will need to create this directory if it doesn't exist.
+`$ git clone git://github.com/pixelsonly/middleman-phonegap.git ~/.middleman/middleman-phonegap`
 
-Clone into ~/.middleman (you'll have to create this directory if it's not already there). You can then use it with the `--template` flag on `middleman init`.
+Download and install Phonegap if you haven't already
 
-1. $ `git clone git://github.com/pixelsonly/middleman-phonegap.git ~/.middleman/middleman-phonegap`
-2. $ `middleman init my_new_project --template=middleman-phonegap`
+Create a Phonegap project by running the *create* command, [see docs for help](http://docs.phonegap.com/en/2.3.0/guide_command-line_index.md.html#Command-Line%20Usage_ios)
+`$ ./path/to/cordova-ios/bin/create /path/to/new_phonegap_project com.example.cordova_project_name PhonegapProjectName`
+
+Initialize Middleman with the template on the Phonegap project you just created
+`$ middleman init existing_phonegap_project --template=middleman-phonegap`
+
 
 For more help follow [Middleman's project template instructions](http://middlemanapp.com/getting-started/welcome/) or feel free to hit me up on [Twitter](http://twitter.com/pixelsonly).
 
-## Phonegap Setup ##
+## Build Tool ##
+**middleman-phonegap** hooks into the Middleman build process, merges the compiled assets with the Phonegap structure, compiles the iOS application and launches the iOS Simulator with a single command.
+
+`$ middleman build`
 
 
 

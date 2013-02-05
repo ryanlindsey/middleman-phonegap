@@ -9,6 +9,11 @@ Middleman + Phonegap Template with Haml, Sass & Coffeescript
 * jquery-1.9.1.js
 
 
+#### Requires ####
+* ios-sim
+  `brew install ios-sim`
+  or https://github.com/phonegap/ios-sim
+
 ## Installation / Phonegap Integration ##
  
 1. Clone **middleman-phonegap** into `~/.middleman`. You will need to create this directory if it doesn't exist.
@@ -27,9 +32,10 @@ For more help follow [Middleman's project template instructions](http://middlema
 
 ## Build Tool ##
 **middleman-phonegap** hooks into the Middleman build process, merges the compiled assets with the Phonegap structure, compiles the iOS application and launches the iOS Simulator with a single command.
+ 
+ Run `$ middleman build` from project root
 
-`$ middleman build`
-
+**Only supports iOS (for now)**
 
 
 ## LICENSE ##

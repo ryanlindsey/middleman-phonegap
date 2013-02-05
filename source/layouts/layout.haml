@@ -1,0 +1,20 @@
+!!! 5
+%html
+  %head
+    %title MIDDLEMAN + PHONEGAP
+    
+    // Standard viewport tag to set the viewport to the device's width, 
+    // Android 2.3 devices need this so 100% width works properly and 
+    // doesn't allow children to blow up the viewport width
+    %meta{content: "initial-scale=1.0,user-scalable=no,maximum-scale=1,width=device-width", name: "viewport"}
+    
+    // Fix for iPhone 5 fullscreen web apps
+    %meta{content: "initial-scale=1.0,user-scalable=no,maximum-scale=1", media: "(device-height: 568px)", name: "viewport"}
+    
+    // Stylesheets
+    = stylesheet_link_tag 'application'
+    
+    // Javascripts
+    = javascript_include_tag 'application'
+  %body
+    = yield

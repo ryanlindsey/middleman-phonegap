@@ -3,18 +3,24 @@ Middleman + Phonegap Template with Haml, Sass & Coffeescript
 
 **middleman-phonegap** is a [Middleman 3.x](http://middlemanapp.com/) project template with the [Compass](http://compass-style.org), [SASS](http://sass-lang.com/), [HAML](http://haml-lang.com/) and [Coffeescript](http://coffeescript.org). As with all Middleman templates, using [Bundler](http://gembundler.com/) and [Rbenv](https://github.com/sstephenson/rbenv/) is recommended.
 
+#### Includes ####
+* cordova-2.3.0.js
+* fastclick.js
+* jquery-1.9.0.js
+
+
 ## Installation / Phonegap Integration ##
  
-Clone **middleman-phonegap** into `~/.middleman`. You will need to create this directory if it doesn't exist.
-`$ git clone git://github.com/pixelsonly/middleman-phonegap.git ~/.middleman/middleman-phonegap`
+1. Clone **middleman-phonegap** into `~/.middleman`. You will need to create this directory if it doesn't exist.
+   `$ git clone git://github.com/pixelsonly/middleman-phonegap.git ~/.middleman/middleman-phonegap`
+   
+2. Download and install [Phonegap](http://phonegap.com/download/) if you haven't already
 
-Download and install Phonegap if you haven't already
+3. Create a Phonegap project by running the *create* command, [see docs for help](http://docs.phonegap.com/en/2.3.0/guide_command-line_index.md.html#Command-Line%20Usage_ios)
+   `$ ./path/to/cordova-ios/bin/create /path/to/new_phonegap_project com.example.cordova_project_name PhonegapProjectName`
 
-Create a Phonegap project by running the *create* command, [see docs for help](http://docs.phonegap.com/en/2.3.0/guide_command-line_index.md.html#Command-Line%20Usage_ios)
-`$ ./path/to/cordova-ios/bin/create /path/to/new_phonegap_project com.example.cordova_project_name PhonegapProjectName`
-
-Initialize Middleman with the template on the Phonegap project you just created
-`$ middleman init existing_phonegap_project --template=middleman-phonegap`
+4. Initialize Middleman with the template on the Phonegap project you just created
+   `$ middleman init existing_phonegap_project --template=middleman-phonegap`
 
 
 For more help follow [Middleman's project template instructions](http://middlemanapp.com/getting-started/welcome/) or feel free to hit me up on [Twitter](http://twitter.com/pixelsonly).

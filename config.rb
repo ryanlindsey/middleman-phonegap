@@ -6,7 +6,7 @@ require "phonegap"
 activate :phonegap
 
 # Set this to the path of your Phonegap project
-# set :phonegap_dir, '../'
+set :phonegap_dir, 'www'
 
 
 # -----------------------------------------------------------------

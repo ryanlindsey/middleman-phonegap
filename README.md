@@ -6,7 +6,7 @@ Middleman + Phonegap Template with Haml, Sass & Coffeescript
 #### Includes ####
 * cordova-2.3.0.js
 * fastclick.js
-* jquery-1.9.0.js
+* jquery-1.9.1.js
 
 
 ## Installation / Phonegap Integration ##

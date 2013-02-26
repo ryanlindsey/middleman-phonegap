@@ -4,7 +4,7 @@ Middleman + Phonegap Template with Haml, Sass & Coffeescript
 **middleman-phonegap** is a [Middleman 3.x](http://middlemanapp.com/) project template with the [Compass](http://compass-style.org), [SASS](http://sass-lang.com/), [HAML](http://haml-lang.com/) and [Coffeescript](http://coffeescript.org). As with all Middleman templates, using [Bundler](http://gembundler.com/) and [Rbenv](https://github.com/sstephenson/rbenv/) is recommended.
 
 #### Includes ####
-* cordova-2.3.0.js
+* cordova-2.4.0.js
 * fastclick.js
 * jquery-1.9.1.js
 

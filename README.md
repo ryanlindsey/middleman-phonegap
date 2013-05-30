@@ -1,44 +1,68 @@
-Middleman + Phonegap Template with Haml, Sass & Coffeescript
-============================================================
+# middleman-phonegap
 
-**middleman-phonegap** is a [Middleman 3.x](http://middlemanapp.com/) project template with the [Compass](http://compass-style.org), [SASS](http://sass-lang.com/), [HAML](http://haml-lang.com/) and [Coffeescript](http://coffeescript.org). As with all Middleman templates, using [Bundler](http://gembundler.com/) and [Rbenv](https://github.com/sstephenson/rbenv/) is recommended.
+**middleman-phonegap** is a [Middleman 3.0.x](http://middlemanapp.com) project
+template for [PhoneGap](http://phonegap.com) with [Haml](http://haml.info),
+[Sass](http://sass-lang.com) and [CoffeeScript](http://coffeescript.org).
 
-#### Includes ####
-* cordova-2.6.0.js
-* fastclick.js
-* jquery-1.9.1.js
+Using [Bundler](http://gembundler.com) and [RVM](https://rvm.io) or
+[rbenv](http://rbenv.org) is **highly** recommended.
 
+### Includes
+* [Apache Cordova](http://cordova.apache.org) (v2.7.0)
+* [FastClick](https://github.com/ftlabs/fastclick) (v0.6.7)
+* [jQuery](http://jquery.com) (v2.0.1)
 
-#### Requires ####
-* ios-sim
-  `brew install ios-sim`
-  or https://github.com/phonegap/ios-sim
+### Requires
+* [PhoneGap](http://phonegap.com)
+* [ios-sim](https://github.com/phonegap/ios-sim)
 
-## Installation / Phonegap Integration ##
- 
-1. Clone **middleman-phonegap** into `~/.middleman`. You will need to create this directory if it doesn't exist.
-   `$ git clone git://github.com/pixelsonly/middleman-phonegap.git ~/.middleman/middleman-phonegap`
-   
-2. Download and install [Phonegap](http://phonegap.com/download/) if you haven't already
+  If you're on OS X, [Homebrew](http://brew.sh) is the simples way to install
+  [ios-sim](https://github.com/phonegap/ios-sim):
+  ```bash
+  $ brew install ios-sim
+  ```
 
-3. Create a Phonegap project by running the *create* command, [see docs for help](http://docs.phonegap.com/en/2.3.0/guide_command-line_index.md.html#Command-Line%20Usage_ios)
-   `$ ./path/to/cordova-ios/bin/create /path/to/new_phonegap_project com.example.cordova_project_name PhonegapProjectName`
+**Only supports iOS (for now).**
 
-4. Initialize Middleman with the template on the Phonegap project you just created
-   `$ middleman init existing_phonegap_project --template=middleman-phonegap`
+## Installation
 
+1. Clone **middleman-phonegap** into `~/.middleman`. You will need to create
+   this directory if it doesn't exist.
+   ```bash
+   $ git clone git://github.com/pixelsonly/middleman-phonegap.git ~/.middleman/middleman-phonegap
+   ```
 
-For more help follow [Middleman's project template instructions](http://middlemanapp.com/getting-started/welcome/) or feel free to hit me up on [Twitter](http://twitter.com/pixelsonly).
+2. Download and install [PhoneGap](http://phonegap.com/download/) if you haven't
+   already.
 
-## Build Tool ##
-**middleman-phonegap** hooks into the Middleman build process, merges the compiled assets with the Phonegap structure, compiles the iOS application and launches the iOS Simulator with a single command.
- 
- Run `$ middleman build` from project root
+3. Create a PhoneGap project by running the *create* command,
+   [see docs for help](http://docs.phonegap.com/en/2.7.0/guide_command-line_index.md.html#Command-Line%20Usage_ios):
+   ```bash
+   $ ./path/to/cordova-ios/bin/create /path/to/new_phonegap_project com.example.cordova_project_name PhonegapProjectName
+   ```
 
-**Only supports iOS (for now)**
+4. Initialize Middleman with the template on the PhoneGap project you just
+   created:
+   ```bash
+   $ middleman init existing_phonegap_project --template=middleman-phonegap
+   ```
 
+For more help follow [Middleman's project template instructions](http://middlemanapp.com/getting-started/) or feel free to hit me up on
+[Twitter](http://twitter.com/pixelsonly).
 
-## LICENSE ##
+## Usage
+
+**middleman-phonegap** hooks into the Middleman build process, merges the
+compiled assets with the PhoneGap structure, compiles the iOS application and
+launches the iOS Simulator with a single command.
+
+Run
+```bash
+$ middleman build
+```
+from project root.
+
+## LICENSE
 
 Copyright (c) 2013 Ryan Lindsey
 

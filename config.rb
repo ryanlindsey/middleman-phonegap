@@ -1,21 +1,19 @@
 # -----------------------------------------------------------------
-# Phonegap Extension
+# PhoneGap Extension
 # -----------------------------------------------------------------
-require "phonegap"
-
+require 'phonegap'
 activate :phonegap
-
 
 # -----------------------------------------------------------------
 # Middleman Build Config
 # -----------------------------------------------------------------
 configure :build do
-  ignore 'images/*.psd'
-  ignore 'stylesheets/lib/*'
-  ignore 'stylesheets/vendor/*'
-  ignore 'javascripts/lib/*'
+  ignore 'javascripts/_*'
   ignore 'javascripts/vendor/*'
+  ignore 'stylesheets/_*'
+  ignore 'stylesheets/vendor/*'
 
   activate :minify_css
   activate :minify_javascript
+  activate :relative_assets
 end

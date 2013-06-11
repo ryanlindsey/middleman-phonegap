@@ -8,7 +8,7 @@ Using [Bundler](http://gembundler.com) and [RVM](https://rvm.io) or
 [rbenv](http://rbenv.org) is **highly** recommended.
 
 ### Includes
-* [Apache Cordova](http://cordova.apache.org) (v2.7.0)
+* [Apache Cordova](http://cordova.apache.org) (v2.8.0)
 * [FastClick](https://github.com/ftlabs/fastclick) (v0.6.7)
 * [jQuery](http://jquery.com) (v2.0.2)
 
@@ -36,7 +36,7 @@ Using [Bundler](http://gembundler.com) and [RVM](https://rvm.io) or
    already.
 
 3. Create a PhoneGap project by running the *create* command,
-   [see docs for help](http://docs.phonegap.com/en/2.7.0/guide_command-line_index.md.html#Command-Line%20Usage_ios):
+   [see docs for help](http://docs.phonegap.com/en/2.8.0/guide_command-line_index.md.html#Command-Line%20Usage_ios):
    ```bash
    $ ./path/to/cordova-ios/bin/create /path/to/new_phonegap_project com.example.cordova_project_name PhonegapProjectName
    ```

@@ -15,7 +15,7 @@ window.app =
   # deviceready Event Handler
   #
   # The scope of 'this' is the event. In order to call the 'receivedEvent'
-  # function, we must explicity call 'app.receivedEvent(...);'
+  # function, we must explicity call 'app.receivedEvent(...)'
   onDeviceReady: -> app.receivedEvent "deviceready"
 
   # Update DOM on a Received Event
@@ -23,7 +23,6 @@ window.app =
     $("##{id} .listening").css "display", "none"
     $("##{id} .received").css "display", "block"
 
-    console.log "Received Event: " + id
+    console.log "Received Event: #{id}"
 
-$ ->
-  FastClick.attach document.body
+$ -> FastClick.attach document.body

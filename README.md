@@ -7,6 +7,8 @@ template for [PhoneGap](http://phonegap.com) with [Haml](http://haml.info),
 Using [Bundler](http://gembundler.com) and [RVM](https://rvm.io) or
 [rbenv](http://rbenv.org) is **highly** recommended.
 
+**Only supports iOS (for now).**
+
 ### Includes
 * [Apache Cordova](http://cordova.apache.org) (v2.8.0)
 * [FastClick](https://github.com/ftlabs/fastclick) (v0.6.7)
@@ -21,8 +23,6 @@ Using [Bundler](http://gembundler.com) and [RVM](https://rvm.io) or
   ```bash
   $ brew install ios-sim
   ```
-
-**Only supports iOS (for now).**
 
 ## Installation
 

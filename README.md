@@ -10,7 +10,7 @@ Using [Bundler](http://gembundler.com) and [RVM](https://rvm.io) or
 ### Includes
 * [Apache Cordova](http://cordova.apache.org) (v2.7.0)
 * [FastClick](https://github.com/ftlabs/fastclick) (v0.6.7)
-* [jQuery](http://jquery.com) (v2.0.1)
+* [jQuery](http://jquery.com) (v2.0.2)
 
 ### Requires
 * [PhoneGap](http://phonegap.com)

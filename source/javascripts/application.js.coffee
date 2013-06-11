@@ -1,6 +1,6 @@
 #= require vendor/cordova-2.7.0
 #= require vendor/fastclick
-#= require vendor/jquery-2.0.1
+#= require vendor/jquery-2.0.2
 
 window.app =
   # Application Constructor

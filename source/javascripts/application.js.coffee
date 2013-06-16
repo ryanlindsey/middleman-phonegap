@@ -1,4 +1,4 @@
-#= require vendor/cordova-2.8.0
+#= require vendor/cordova
 #= require vendor/fastclick
 #= require vendor/jquery-2.0.2
 

@@ -1,6 +1,6 @@
 # middleman-phonegap
 
-**middleman-phonegap** is a [Middleman 3.0.x](http://middlemanapp.com) project
+**middleman-phonegap** is a [Middleman 3.x](http://middlemanapp.com) project
 template for [PhoneGap](http://phonegap.com) with [Haml](http://haml.info),
 [Sass](http://sass-lang.com) and [CoffeeScript](http://coffeescript.org).
 

@@ -18,7 +18,7 @@ Using [Bundler](http://gembundler.com) and [RVM](https://rvm.io) or
 * [PhoneGap](http://phonegap.com)
 * [ios-sim](https://github.com/phonegap/ios-sim)
 
-  If you're on OS X, [Homebrew](http://brew.sh) is the simples way to install
+  If you're on OS X, [Homebrew](http://brew.sh) is the simplest way to install
   [ios-sim](https://github.com/phonegap/ios-sim):
   ```bash
   $ brew install ios-sim
